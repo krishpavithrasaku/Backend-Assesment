@@ -1,0 +1,32 @@
+1. Using reverse-i-search often, and that's cool. Sometime though when pressing CTRL+r multiple times, 
+   I pass the command I am actually looking for. Because CTRL+r searches backward in history, from newest to oldest, I have to:
+   cancel, search again and stop exactly at the command, without passing it. While in reverse-i-search prompt, is it possible to search forward,
+   i.e. from where I stand to newest. I naively tried CTRL+Shift+r, no luck. I heard about CTRL+g but this is not what I am expecting here.
+
+2. The easiest way to show hidden files on Linux is to use the ls command with the “-a” option for “all”. For example, 
+   in order to show hidden files in a user home directory, this is the command that you would run. 
+   For example, the .bash_logout script is executed whenever you log out of your Bash sessions. Another great example is 
+   the .gitignore file used by Git to exclude certain files from being pushed to your remote repository.
+   To list or find all hidden files, you have to explicitly tell the find command to list all files whose names start with a dot (.).
+
+   find . -name ".*" -maxdepth 1 2> /dev/null
+
+
+3. An OS for your server can be a really confusing task due to a huge list of available options; especially if you want to go with a Linux distribution. 
+   There are many choices, but none of them are as famous as Ubuntu or CentOS.
+
+   It doesn’t matter whether you are a professional or a beginner, it usually comes down to choosing between the two options. 
+   It’s safe to say that there is no straightforward decision.
+
+
+4.  A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other protocols to respond 
+    to client requests made over the World Wide Web. The main job of a web server is to display website content through storing, 
+    processing and delivering webpages to users.
+    
+    Web servers often come as part of a larger package of internet- and intranet-related programs that are used for:
+
+    sending and receiving emails;
+    downloading requests for File Transfer Protocol (FTP) files; and
+    building and publishing webpages.
+
+
